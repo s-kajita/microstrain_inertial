@@ -2,8 +2,8 @@
 Changelog for package microstrain_inertial_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.3.0 (2024-05-15)
+------------------
 * Updates CV7 INS example yaml (`https://github.com/LORD-MicroStrain/microstrain_inertial/pull/331` _)
 * Updates submodule (`#328 <https://github.com/LORD-MicroStrain/microstrain_inertial/issues/328>`_)
   * Adds ability for ROS2 implementation to be a non-lifecycle node microstrain_inertial_driver_common#68
