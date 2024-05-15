@@ -2,6 +2,17 @@
 Changelog for package microstrain_inertial_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Updates CV7 INS example yaml (`https://github.com/LORD-MicroStrain/microstrain_inertial/pull/331` _)
+* Updates submodule (`#328 <https://github.com/LORD-MicroStrain/microstrain_inertial/issues/328>`_)
+  * Adds ability for ROS2 implementation to be a non-lifecycle node microstrain_inertial_driver_common#68
+  * Remove dongle version check microstrain_inertial_driver_common#72
+  * Updates MIP SDK to fully support CV7-INS microstrain_inertial_driver_common#73
+  * Waits for GNSS antenna transforms instead of erroring if they cannot be found microstrain_inertial_driver_common#74
+  * Fixes the gnss_state in human readable status microstrain_inertial_driver_common#75
+* Contributors: Rob
+
 4.2.0 (2024-04-04)
 ------------------
 * Updates submodule to be in line with ROS2
