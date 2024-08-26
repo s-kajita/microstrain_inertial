@@ -68,6 +68,8 @@ int Microstrain::run()
     aux_parsing_timer_ = createTimer<NodeCommon>(&node, 2.0, &NodeCommon::parseAndPublishAux, this);
   }
 
+	printf("**** Hello Microstrain IMU node! ****\n");
+
   // Spin until we are shutdown
   int status = 0;  // Success status. If we fail at any point this will be set to a positive number and returned
   try
